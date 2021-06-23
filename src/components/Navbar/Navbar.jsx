@@ -1,11 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Burger from "../Burger/Burger";
-// import Education from "../Education/Education";
-// import Gallery from "../Gallery/Gallery";
-// import Skills from "../Skills/Skills";
-// import Contact from "../Contact/Contact";
-// import Home from "../Home/Home";
 import "./Navbar.css";
 
 const Navbar = () => {
