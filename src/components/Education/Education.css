@@ -37,8 +37,11 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .edu-heading h1 {
+    font-size: 1.8em !important;
+  }
   .por-heading h1 {
-    font-size: 1.9em !important;
+    font-size: 1.7em !important;
   }
 }
 /*# sourceMappingURL=Education.css.map */

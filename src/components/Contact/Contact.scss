@@ -1,0 +1,93 @@
+.connect-heading {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400 !important;
+  margin-top: 160px;
+  margin-bottom: 40px;
+}
+.con-name {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 2.5em;
+}
+
+.email {
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.ph-no {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.footer {
+  margin-top: 50px;
+  span {
+    font-family: "Poppins", sans-serif;
+    color: grey;
+  }
+}
+
+.sm-btns {
+  display: flex;
+  align-items: center;
+
+  a {
+    font-size: 50px;
+    color: white;
+    transition: all 0.1s ease-in;
+    &:hover {
+      color: rgb(199, 197, 197);
+    }
+  }
+}
+
+#ig {
+  justify-content: flex-end;
+  a {
+    &:hover {
+      font-size: 48px;
+    }
+  }
+}
+#li {
+  justify-content: center;
+  a {
+    &:hover {
+      font-size: 48px;
+    }
+  }
+}
+#gh {
+  justify-content: flex-start;
+  a {
+    &:hover {
+      font-size: 48px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .connect-heading {
+    margin-top: 130px;
+  }
+  .email {
+    a {
+      font-size: 0.82em !important;
+    }
+  }
+}

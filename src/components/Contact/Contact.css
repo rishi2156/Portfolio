@@ -1,0 +1,107 @@
+.connect-heading {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400 !important;
+  margin-top: 160px;
+  margin-bottom: 40px;
+}
+
+.con-name {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 2.5em;
+}
+
+.email {
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.email a {
+  color: white;
+  text-decoration: none;
+}
+
+.ph-no {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.ph-no a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  margin-top: 50px;
+}
+
+.footer span {
+  font-family: "Poppins", sans-serif;
+  color: grey;
+}
+
+.sm-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sm-btns a {
+  font-size: 50px;
+  color: white;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+.sm-btns a:hover {
+  color: #c7c5c5;
+}
+
+#ig {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#ig a:hover {
+  font-size: 48px;
+}
+
+#li {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#li a:hover {
+  font-size: 48px;
+}
+
+#gh {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#gh a:hover {
+  font-size: 48px;
+}
+
+@media only screen and (max-width: 767px) {
+  .connect-heading {
+    margin-top: 130px;
+  }
+  .email a {
+    font-size: 0.82em !important;
+  }
+}
+/*# sourceMappingURL=Contact.css.map */

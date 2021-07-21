@@ -13,4 +13,24 @@
   margin-top: 40px;
   margin-bottom: 20px;
 }
+
+.instruction {
+  display: none;
+  font-family: "Poppins", sans-serif;
+  color: grey;
+  margin-bottom: 30px;
+}
+
+.slider {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  .slider {
+    margin-bottom: 0px;
+  }
+  .instruction {
+    display: block;
+  }
+}
 /*# sourceMappingURL=Skills.css.map */

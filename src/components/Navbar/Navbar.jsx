@@ -24,9 +24,9 @@ const Navbar = () => {
           <Link to="/skills" onClick={() => handleToggle()}>
             <li>Skills</li>
           </Link>
-          <Link to="/gallery" onClick={() => handleToggle()}>
+          {/* <Link to="/gallery" onClick={() => handleToggle()}>
             <li>Gallery</li>
-          </Link>
+          </Link> */}
           <Link to="/contact" onClick={() => handleToggle()}>
             <li>Connect</li>
           </Link>

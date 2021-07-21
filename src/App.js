@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Education from "./components/Education/Education";
 import Skills from "./components/Skills/Skills";
-import Gallery from "./components/Gallery/Gallery";
+// import Gallery from "./components/Gallery/Gallery";
 import Contact from "./components/Contact/Contact";
 
 function App() {
@@ -20,9 +20,9 @@ function App() {
             <Route path="/skills">
               <Skills />
             </Route>
-            <Route path="/gallery">
+            {/* <Route path="/gallery">
               <Gallery />
-            </Route>
+            </Route> */}
             <Route path="/contact">
               <Contact />
             </Route>
