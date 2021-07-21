@@ -6,7 +6,7 @@
   position: fixed;
   left: 40px;
   top: 40px;
-  z-index: 10;
+  z-index: 999;
   cursor: pointer;
 }
 
@@ -29,6 +29,7 @@ ul {
   width: 0;
   overflow: hidden;
   width: 100vw;
+  z-index: 10;
 }
 
 .menuNav .showMenu {

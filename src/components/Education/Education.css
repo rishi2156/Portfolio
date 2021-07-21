@@ -1,0 +1,44 @@
+.edupage-headings {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400 !important;
+  margin-bottom: 20px;
+}
+
+.edu-heading {
+  margin-top: 60px;
+}
+
+.por-heading {
+  margin-top: 50px;
+}
+
+.cv-btn {
+  background-color: white;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 50px;
+  border: none;
+  height: 40px;
+  width: 150px;
+}
+
+.cv-btn:hover {
+  background-color: #d3d0d0;
+}
+
+.cv-btn a {
+  text-decoration: none;
+  color: black;
+}
+
+.pors {
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+  .por-heading h1 {
+    font-size: 1.9em !important;
+  }
+}
+/*# sourceMappingURL=Education.css.map */

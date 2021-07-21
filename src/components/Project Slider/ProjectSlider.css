@@ -1,0 +1,24 @@
+.carousel-container {
+  height: 550px;
+}
+
+.react-multiple-carousel__arrow {
+  position: absolute;
+  width: 20px;
+  margin-top: 20px;
+  bottom: 0;
+  background-color: transparent;
+}
+
+.react-multiple-carousel__arrow:hover {
+  background-color: transparent;
+}
+
+.react-multiple-carousel__arrow--right {
+  right: 62px;
+}
+
+.react-multiple-carousel__arrow--left {
+  left: -10px;
+}
+/*# sourceMappingURL=ProjectSlider.css.map */

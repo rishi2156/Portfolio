@@ -1,0 +1,50 @@
+[
+  {
+    "key": 1,
+    "title": "Mails24",
+    "desc": "Mail scheduling app built-in MERN stack for Flipr Hackathon '21",
+    "ghLink": "https://github.com/Kaustuv942/mails24",
+    "status": true,
+    "imgLink": "MS24"
+  },
+  {
+    "key": 2,
+    "title": "Rate-a-touille",
+    "desc": "Rate-a-touille is a fullstack restaurant management desktop application made using Java and MySQL.",
+    "ghLink": "https://github.com/rishi2156/TDoC-Rate-A-Touille",
+    "status": true,
+    "imgLink": "RATE"
+  },
+  {
+    "key": 3,
+    "title": "React Blog",
+    "desc": "A simple blog application using React.",
+    "ghLink": "https://github.com/rishi2156/ReactBlog",
+    "status": true,
+    "imgLink": "RBlog"
+  },
+  {
+    "key": 4,
+    "title": "React Website",
+    "desc": "A simple responsive site using React.",
+    "ghLink": "https://github.com/rishi2156/ReactSite",
+    "status": true,
+    "imgLink": "RSite"
+  },
+  {
+    "key": 5,
+    "title": "Nodejs Blog",
+    "desc": "A simple blog application using NodeJs and MongoDB",
+    "ghLink": "https://github.com/rishi2156/NodeBlog",
+    "status": true,
+    "imgLink": "NBlog"
+  },
+  {
+    "key": 6,
+    "title": "Al-Cu-Ni alloy",
+    "desc": "Tailoring the composition of Al-Cu-Ni alloy for property improvement",
+    "ghLink": "",
+    "status": false,
+    "imgLink": "AL"
+  }
+]

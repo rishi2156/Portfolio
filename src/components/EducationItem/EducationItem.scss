@@ -1,0 +1,76 @@
+.edu-item {
+  margin: 10px 0 20px 0;
+}
+.edu-item-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 90px;
+  }
+}
+
+.edu-item-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  h4 {
+    font-size: 1.2em !important;
+    text-align: left;
+  }
+  h5 {
+    font-size: 0.8em !important;
+    text-align: left;
+  }
+  p {
+    font-size: 0.8em !important;
+    margin-bottom: 0 !important;
+    text-align: left;
+  }
+}
+
+.edu-item-year {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  h6 {
+    font-weight: 300 !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .edu-item-desc {
+    h5 {
+      font-size: 0.75em !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .edu-item-logo {
+    img {
+      width: 75px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .edu-item-desc {
+    align-items: center;
+    h4 {
+      text-align: center;
+    }
+    h5 {
+      font-size: 1em !important;
+      text-align: center;
+    }
+    p {
+      font-size: 0.9em;
+      text-align: center;
+    }
+  }
+}

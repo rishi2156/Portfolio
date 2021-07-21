@@ -1,0 +1,44 @@
+.skill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0;
+}
+
+.skill-name {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.skill-name h4 {
+  font-weight: 300 !important;
+  font-size: 1.2em !important;
+}
+
+.pbContainer div div {
+  width: 80%;
+}
+
+@media only screen and (max-width: 767px) {
+  .skill-name {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .pbContainer div div {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=SkillName.css.map */

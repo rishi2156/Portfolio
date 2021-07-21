@@ -1,0 +1,36 @@
+.skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.skill-name {
+  font-family: "Poppins", sans-serif;
+
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  h4 {
+    font-weight: 300 !important;
+    font-size: 1.2em !important;
+  }
+}
+.pbContainer {
+  div {
+    div {
+      width: 80%;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .skill-name {
+    justify-content: center;
+  }
+  .pbContainer {
+    div {
+      div {
+        width: 100%;
+      }
+    }
+  }
+}

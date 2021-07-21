@@ -1,0 +1,101 @@
+.edu-item {
+  margin: 10px 0 20px 0;
+}
+
+.edu-item-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.edu-item-logo img {
+  width: 90px;
+}
+
+.edu-item-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.edu-item-desc h4 {
+  font-size: 1.2em !important;
+  text-align: left;
+}
+
+.edu-item-desc h5 {
+  font-size: 0.8em !important;
+  text-align: left;
+}
+
+.edu-item-desc p {
+  font-size: 0.8em !important;
+  margin-bottom: 0 !important;
+  text-align: left;
+}
+
+.edu-item-year {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.edu-item-year h6 {
+  font-weight: 300 !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .edu-item-desc h5 {
+    font-size: 0.75em !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .edu-item-logo img {
+    width: 75px;
+    margin-bottom: 10px;
+  }
+  .edu-item-desc {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .edu-item-desc h4 {
+    text-align: center;
+  }
+  .edu-item-desc h5 {
+    font-size: 1em !important;
+    text-align: center;
+  }
+  .edu-item-desc p {
+    font-size: 0.9em;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=EducationItem.css.map */
