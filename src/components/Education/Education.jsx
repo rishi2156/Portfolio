@@ -15,7 +15,9 @@ const Education = () => {
     <div className="container">
       <div className="row justify-content-center">
         <div className="col-8 edu-heading">
-          <h1 className="edupage-headings">EDUCATION</h1>
+          <h1 className="edupage-headings" data-aos="zoom-in">
+            EDUCATION
+          </h1>
         </div>
       </div>
       <EducationList />
@@ -28,7 +30,9 @@ const Education = () => {
       </div>
       <div className="row justify-content-center">
         <div className="col-8 por-heading">
-          <h1 className="edupage-headings">POSITIONS OF RESPONSIBILITY</h1>
+          <h1 className="edupage-headings" data-aos="zoom-in">
+            POSITIONS OF RESPONSIBILITY
+          </h1>
         </div>
       </div>
       <div className="pors">

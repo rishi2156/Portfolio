@@ -19,7 +19,9 @@ const Contact = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-11 col-md-8">
-            <h1 className="connect-heading">CONNECT</h1>
+            <h1 className="connect-heading" data-aos="zoom-in">
+              CONNECT
+            </h1>
           </div>
           <div className="col-11 col-md-8">
             <h2 className="con-name">RAMYANIL RAHA</h2>
@@ -40,18 +42,45 @@ const Contact = () => {
         <div className="row justify-content-center">
           <div className="col-8 col-md-4">
             <div className="row">
-              <div className="col-4 sm-btns" id="ig">
-                <a href="#">
+              <div
+                className="col-4 sm-btns"
+                id="ig"
+                data-aos="zoom-in"
+                data-aos-delay="400"
+              >
+                <a
+                  href="https://www.instagram.com/raw_mmo/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <AiOutlineInstagram />
                 </a>
               </div>
-              <div className="col-4 sm-btns" id="li">
-                <a href="#">
+              <div
+                className="col-4 sm-btns"
+                id="li"
+                data-aos="zoom-in"
+                data-aos-delay="500"
+              >
+                <a
+                  href="https://www.linkedin.com/in/ramyanil-raha-a551151b5/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <AiFillLinkedin />
                 </a>
               </div>
-              <div className="col-4 sm-btns" id="gh">
-                <a href="#">
+              <div
+                className="col-4 sm-btns"
+                id="gh"
+                data-aos="zoom-in"
+                data-aos-delay="600"
+              >
+                <a
+                  href="https://github.com/rishi2156"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <AiFillGithub />
                 </a>
               </div>

@@ -4,7 +4,6 @@ import P3 from "../../image/RBlog.png";
 import P4 from "../../image/RSite.png";
 import P5 from "../../image/nodejs.png";
 import P6 from "../../image/al.png";
-import DP from "../../image/user.png";
 import "./ProjectCard.css";
 
 const ProjectCard = ({ title, imgLink, desc, link, status }) => {
@@ -12,7 +11,7 @@ const ProjectCard = ({ title, imgLink, desc, link, status }) => {
   if (status) {
     btn = (
       <button className="ghLink">
-        <a href={link} target="_blank">
+        <a href={link} target="_blank" rel="noreferrer">
           View on Github
         </a>
       </button>
