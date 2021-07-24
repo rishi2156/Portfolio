@@ -24,7 +24,13 @@ const Education = () => {
       <div className="row justify-content-center">
         <div className="col-8">
           <button className="cv-btn">
-            <a href="#">Download CV</a>
+            <a
+              href="https://drive.google.com/file/d/1fv1FFBeTjEoxtisQtRnZgKliHzKR_EhV/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Download CV
+            </a>
           </button>
         </div>
       </div>

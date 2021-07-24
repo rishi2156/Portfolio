@@ -20,11 +20,20 @@ code {
 #vanta {
   position: fixed !important;
   display: block;
-  min-width: 100% !important;
+  min-width: 100vw !important;
   min-height: 100vh !important;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
   z-index: -1;
+}
+
+.vanta-canvas {
+  top: 0 !important;
+  right: 0 !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
 }

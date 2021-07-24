@@ -3,6 +3,7 @@
 }
 
 .edu-item-logo {
+  min-height: 100px !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
